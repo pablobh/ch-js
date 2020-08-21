@@ -4,7 +4,10 @@ var numero02 = prompt('Escribe un número del 1 al 100');
 
 if (numero01 > 1000) {
     console.info('¡Tu número es mayor a 1000!');
-} else {
+} else if (numero01 === 1000) {
+    console.info('¡Tu número es 1000!');
+}
+else {
     console.info('¡Tu número es menor a 1000!');
 };
 
