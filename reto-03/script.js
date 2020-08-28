@@ -30,14 +30,16 @@ function semanario() {
     }
 }
 
-// Esto quedará para otro día
-// function semanario2() {
-//     for (var i = 0; i < dias.length; i++) {
-//         if (i == 1) || (i == 3) || (i == 5) {
-//             console.log('Hey! ' + dias[i] + ' es un día par')
-//         }
-//         else {
-//             console.log('No pasa nada')
-//         }
-//     }
-// }
+function semanario2() {
+    for (var i = 0; i < dias.length; i++) {
+        if ((i == 1) || (i == 3) || (i == 5)) {
+            console.log('Hey! ' + dias[i] + ' es un día par')
+        }
+        else if (i == 6) {
+            alert('Hey no te parece MARAVILLOSO que hoy sea ' + dias[i] + ' ?')
+        }
+        else {
+            console.log('Hey! ' + dias[i] + ' es un día IMPAR')
+        }
+    }
+}
